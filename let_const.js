@@ -21,10 +21,16 @@ name = 'Mike';
 
 //  console.log(a);
 
-let a = 5;
-{
-    let a = 6;
-    console.log(a);
-}
+// let a = 5;
+// {
+//     let a = 6;
+//     console.log(a);
+// }
 
 //console.log(a);
+
+// -- Hoisting --//
+console.log(a);
+var a = 5;    // undefined
+let a = 5;    // ERROR
+const a = 5;  // ERROR
