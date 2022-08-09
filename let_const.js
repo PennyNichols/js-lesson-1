@@ -11,3 +11,20 @@ name = 'Mike';
 
 // const pi = 3.14;  // const needs to have a value during declaration
 // pi = 3.15;      // can't overwrite
+
+// let vs var
+
+// var a = 5;
+// {
+//      var a = 6;
+// }
+
+//  console.log(a);
+
+let a = 5;
+{
+    let a = 6;
+    console.log(a);
+}
+
+//console.log(a);
